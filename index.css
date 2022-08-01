@@ -1,0 +1,68 @@
+.gray-rectangle{
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+}
+.small-square{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position:absolute;
+    margin: 20px 10px 10px 10px;
+
+}
+.white-rectangle{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+.paragraph{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.blue-rectangle{
+    background-color: rgba(30, 89, 250, 0.932);
+    height: 200px;
+    width: 100%;
+}
+.light-blue-rectangle{
+    background-color: rgba(0, 255, 195, 0.751);
+    height: 200px;
+    width: 100%;
+}
+.green-rectangle{
+    background-color: yellowgreen;
+    height: 200px;
+    width: 100%;
+}
+.yellow-rectangle{
+    background-color: yellow;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.black-circle{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 100px;
+    position:sticky;
+    top: 10px;
+}
+.white-question-mark{
+    color: white;
+    font-size: 100px;
+    z-index: 1;
+    padding-top: 100px;
+    position: absolute;
+    margin-right: 25px;
+}
